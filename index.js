@@ -25,7 +25,7 @@ mongoose.connect(connectionString,
         host_since:String,
         host_location:String,
         neighbourhood:String,
-        zipcode: String,
+        zipcode: Number,
         bed_type:String,
         price:String
     })
